@@ -1,0 +1,82 @@
+{
+    "caba": {
+        "label": "Ciudad autónoma de Buenos Aires",
+        "hoods": {
+            "1": {
+                "name": "Palermo",
+                "slug": "hood_palermo",
+                "id": "datepicker-palermo",
+                "calculateDisabledDate": 1,
+                "rangeDays": 10,
+                "days": [
+                    0,
+                    4,
+                    5
+                ],
+                "shippingCost": 900,
+                "freeShippingThreshold": 4000
+            },
+            "2": {
+                "name": "Caballito",
+                "slug": "hood_caballito",
+                "id": "datepicker-caballito",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    2,
+                    3
+                ],
+                "shippingCost": 800,
+                "freeShippingThreshold": 4000
+            },
+            "3": {
+                "name": "Almagro",
+                "slug": "hood_almagro",
+                "id": "datepicker-almagro",
+                "calculateDisabledDate": 1,
+                "rangeDays": 7,
+                "days": [
+                    0,
+                    3,
+                    5
+                ],
+                "shippingCost": 1200,
+                "freeShippingThreshold": 3000
+            }
+        }
+    },
+    "zona_sur": {
+        "label": "Zona Sur",
+        "hoods": {
+            "1": {
+                "name": "Wilde",
+                "slug": "hood_wilde",
+                "id": "datepicker-palermo",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    3,
+                    5
+                ],
+                "shippingCost": 1800,
+                "freeShippingThreshold": 7000
+            },
+            "2": {
+                "name": "Avellaneda",
+                "slug": "hood_avellaneda",
+                "id": "datepicker-caballito",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    2,
+                    3
+                ],
+                "shippingCost": 1800,
+                "freeShippingThreshold": 7000
+            }
+        }
+    }
+}

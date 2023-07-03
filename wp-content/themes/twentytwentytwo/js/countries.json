@@ -1,0 +1,82 @@
+{
+    "zona_norte": {
+        "label": "Countries en Zona Norte",
+        "countries": {
+            "1": {
+                "name": "Campo chico",
+                "slug": "country_campo_chico",
+                "id": "datepicker-campo-chico",
+                "calculateDisabledDate": 1,
+                "rangeDays": 10,
+                "days": [
+                    0,
+                    4,
+                    5
+                ],
+                "shippingCost": 900,
+                "freeShippingThreshold": 4000
+            },
+            "2": {
+                "name": "Aras Santa Maria",
+                "slug": "country",
+                "id": "datepicker-aras-santa-maria",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    2,
+                    3
+                ],
+                "shippingCost": 800,
+                "freeShippingThreshold": 4000
+            },
+            "3": {
+                "name": "Nautico",
+                "slug": "country_nautico",
+                "id": "datepicker-nautico",
+                "calculateDisabledDate": 1,
+                "rangeDays": 7,
+                "days": [
+                    0,
+                    3,
+                    5
+                ],
+                "shippingCost": 1200,
+                "freeShippingThreshold": 3000
+            }
+        }
+    },
+    "zona_sur": {
+        "label": "Countries en Zona Sur",
+        "countries": {
+            "1": {
+                "name": "canin",
+                "slug": "country_canin",
+                "id": "datepicker-canin",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    3,
+                    5
+                ],
+                "shippingCost": 1800,
+                "freeShippingThreshold": 7000
+            },
+            "2": {
+                "name": "Country sur",
+                "slug": "country_sur",
+                "id": "datepicker-country-sur",
+                "calculateDisabledDate": 1,
+                "rangeDays": 5,
+                "days": [
+                    1,
+                    2,
+                    3
+                ],
+                "shippingCost": 1800,
+                "freeShippingThreshold": 7000
+            }
+        }
+    }
+}
